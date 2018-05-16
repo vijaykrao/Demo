@@ -25,6 +25,7 @@ class App extends React.Component {
     this.getData = this.getData.bind(this);    
     
   }
+  
 
   componentDidMount() {
     Object.assign(axios.defaults, {headers: {authorization: this.state.auth}});
